@@ -1,0 +1,48 @@
+.cards-container {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+.navbar{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.single-card {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    margin: 40px;
+} 
+
+.section_one {
+  background-color: #1e2333;
+  height: 600px;
+  color: white;
+  padding: 20px 70px;
+}
+
+.section_one_content {
+  width: 40%;
+}
+
+.section_one_title {
+  font-size: 60px;
+  margin-top: 90px;
+  margin-bottom: 10px;
+}
+
+.section_one_text {
+  width: 50%;
+  font-size: 20px;
+}
+
+.section_one_rectangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: white;
+  color: black;
+  width: 100px;
+}
